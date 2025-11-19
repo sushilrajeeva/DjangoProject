@@ -11,7 +11,7 @@ This Django project creates a comprehensive user management system featuring:
 - Secure login/logout functionality
 - Profile updates and account deletion
 
-The project follows Django best practices and utilizes Django's built-in features for models, views, URL routing, and template rendering.
+The project follows the Django best practices and utilizes Django's built-in features for models, views, URL routing, and template rendering.
 
 ## Prerequisites
 
