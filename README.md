@@ -60,6 +60,8 @@ Visit `http://127.0.0.1:8000/` to view the application.
 - Project "LoginSystem" created
 - Application "Loginify" created and registered
 
+<img width="1913" height="936" alt="Screenshot 2025-11-19 at 5 47 37 AM" src="https://github.com/user-attachments/assets/8df087f6-d3aa-4ea7-a7e6-889e9dd0eb31" />
+
 # Task 2: 
 ### Microtask 1: Create Views
 - [x] Created `hello_world` view in `Loginify/views.py`
