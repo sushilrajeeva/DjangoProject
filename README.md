@@ -82,3 +82,81 @@ Visit `http://127.0.0.1:8000/` to view the application.
 ## Screenshots
 <img width="369" height="161" alt="Screenshot 2025-11-19 at 6 05 27 AM" src="https://github.com/user-attachments/assets/4c18c74c-14aa-42e3-befe-13482a78f9de" />
 
+## Task 3: Define Models and Authentication System
+
+In this task, we created a complete user authentication system with database models, views, and beautiful HTML templates.
+
+**Microtask 1: Create UserDetails Model**
+- Created `UserDetails` model to store user information in database
+- Fields: `username` (primary key), `email` (unique), `password`
+- Registered model in Django admin panel for easy management
+- Created and applied database migrations
+
+**Microtask 2: Define URLs and Templates**
+- Created three HTML templates with modern, responsive design:
+  - `signup.html` - User registration form
+  - `login.html` - User login form
+  - `success.html` - Post-login success page
+- Defined URL patterns: `/signup/` and `/login/`
+- Used Django template language with `{% csrf_token %}` for security
+
+**Microtask 3: Implement Signup View**
+- Validates all required fields
+- Checks username uniqueness
+- Enforces email uniqueness (database constraint)
+- Creates new user record
+- Redirects to login page after successful registration
+- Displays error messages for validation failures
+
+**Microtask 4: Implement Login View**
+- Verifies email exists in database
+- Validates password matches stored password
+- Displays success page with user details on successful login
+- Shows appropriate error messages for invalid credentials
+
+### User Flow
+```
+1. User visits /signup/
+   ↓
+2. Fills in username, email, password
+   ↓
+3. Form validates (unique email/username)
+   ↓
+4. User created in database
+   ↓
+5. Redirects to /login/
+   ↓
+6. User enters email and password
+   ↓
+7. Credentials verified
+   ↓
+8. Success page displays user info
+```
+
+### Key Features
+
+**Form Validation**: All inputs validated before processing  
+**Unique Constraints**: Email and username must be unique  
+**Error Handling**: User-friendly error messages  
+**Responsive Design**: Templates work on all screen sizes  
+**Secure Forms**: CSRF protection enabled  
+**User Feedback**: Success/error messages displayed clearly  
+
+1. Signup page
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 39 36 AM" src="https://github.com/user-attachments/assets/13818617-7949-4ec5-98b7-e0aaaf068bd1" />
+
+2. Login page
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 39 48 AM" src="https://github.com/user-attachments/assets/550e6b03-82a3-431f-9937-23cf171f8660" />
+
+3. Success page
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 41 43 AM" src="https://github.com/user-attachments/assets/9cb0c2e9-76fe-4d12-b1fc-b31d5c86b56d" />
+
+4. Error messages
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 42 18 AM" src="https://github.com/user-attachments/assets/708ac8b9-2bcf-43c9-b80f-9c0e4682173b" />
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 42 53 AM" src="https://github.com/user-attachments/assets/67baeb12-48a2-406a-8761-fef5d9e79982" />
+
+
+5. Admin panel showing UserDetails]
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 50 29 AM" src="https://github.com/user-attachments/assets/e23c989e-1d49-4955-a85e-1f85dcd4840c" />
+
+
