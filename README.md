@@ -54,9 +54,29 @@ Visit `http://127.0.0.1:8000/` to view the application.
 
 ## Project Status
 
-Task 1: Project Setup Complete
+# Task 1: Project Setup Complete
 - Virtual environment created
 - Django installed
 - Project "LoginSystem" created
 - Application "Loginify" created and registered
+
+# Task 2: 
+### Microtask 1: Create Views
+- [x] Created `hello_world` view in `Loginify/views.py`
+- [x] Returns HttpResponse with "Hello, world!" message
+- [x] Added proper documentation to the view function
+
+### Microtask 2: Define URL Patterns
+- [x] Created `Loginify/urls.py` with URL patterns
+- [x] Mapped root URL ('') to hello_world view
+- [x] Updated project-level `LoginSystem/urls.py` to include Loginify URLs
+
+## Testing
+- [x] Server runs without errors
+- [x] Endpoint accessible at `http://127.0.0.1:8000/`
+- [x] Returns "Hello, world!" message correctly
+
+
+## Screenshots
+<img width="369" height="161" alt="Screenshot 2025-11-19 at 6 05 27 AM" src="https://github.com/user-attachments/assets/4c18c74c-14aa-42e3-befe-13482a78f9de" />
 
