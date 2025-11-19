@@ -84,7 +84,7 @@ Visit `http://127.0.0.1:8000/` to view the application.
 
 ## Task 3: Define Models and Authentication System
 
-In this task, we created a complete user authentication system with database models, views, and beautiful HTML templates.
+In this task, I created a complete user authentication system with database models, views, and beautiful HTML templates.
 
 **Microtask 1: Create UserDetails Model**
 - Created `UserDetails` model to store user information in database
@@ -159,4 +159,42 @@ In this task, we created a complete user authentication system with database mod
 5. Admin panel showing UserDetails]
 <img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 50 29 AM" src="https://github.com/user-attachments/assets/e23c989e-1d49-4955-a85e-1f85dcd4840c" />
 
+## Task 4: Setup Superuser and Django Admin
+
+In this task, I set up Django's admin interface and explored database operations through the Django shell.
+
+**Create Superuser**
+- Created an admin user using `python3 manage.py createsuperuser`
+- Credentials: username, email, password
+- Allows access to Django admin panel at `/admin/`
+
+**Verify Admin Interface**
+- Logged into Django admin successfully
+- UserDetails model registered and visible in admin
+- Tested CRUD operations through admin UI
+- Verified search and filter functionality
+
+**Django Shell Exploration**
+- Tested all database operations via `python3 manage.py shell`
+- Performed CRUD operations on UserDetails model
+- Documented all commands with expected outputs
+
+ 1. Admin login page
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 6 50 29 AM" src="https://github.com/user-attachments/assets/1a60df92-41bd-49df-b98e-58a58e8155c4" />
+
+2. Admin dashboard
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 7 18 43 AM" src="https://github.com/user-attachments/assets/2d00a1b5-6a61-4726-8838-fb60d790735e" />
+
+3. UserDetails list in admin
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 7 19 50 AM" src="https://github.com/user-attachments/assets/d228cb8f-4cdd-4748-9750-6dd170138322" />
+
+4
+<img width="1136" height="866" alt="Screenshot 2025-11-19 at 7 41 13 AM" src="https://github.com/user-attachments/assets/e446f526-c870-46e2-b85c-183ea9dde0ad" />
+<img width="1136" height="866" alt="Screenshot 2025-11-19 at 7 41 20 AM" src="https://github.com/user-attachments/assets/f8e35a71-c801-4d5d-bd0a-09c2ee72c0e5" />
+<img width="1136" height="866" alt="Screenshot 2025-11-19 at 7 41 27 AM" src="https://github.com/user-attachments/assets/40432903-0c39-41c1-9267-7024ce8c6db1" />
+<img width="1136" height="866" alt="Screenshot 2025-11-19 at 7 41 32 AM" src="https://github.com/user-attachments/assets/7e003dac-a65d-4c6d-8fe1-678d3e95e51f" />
+. Shell commands execution
+
+5 User creation in admin
+<img width="1909" height="711" alt="Screenshot 2025-11-19 at 7 20 31 AM" src="https://github.com/user-attachments/assets/fa140a8c-d3fa-4d51-8736-a1c1663b7e0f" />
 
