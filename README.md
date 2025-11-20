@@ -198,3 +198,19 @@ In this task, I set up Django's admin interface and explored database operations
 5 User creation in admin
 <img width="1909" height="711" alt="Screenshot 2025-11-19 at 7 20 31 AM" src="https://github.com/user-attachments/assets/fa140a8c-d3fa-4d51-8736-a1c1663b7e0f" />
 
+## Task 5: CRUD Operations API
+
+In this task, I implemented complete CRUD (Create, Read, Update, Delete) operations as REST APIs for managing user data.
+
+**API Endpoints Created:**
+1. **GET /api/users/** - Retrieve all users
+<img width="1486" height="798" alt="Screenshot 2025-11-19 at 4 43 58 PM" src="https://github.com/user-attachments/assets/4d343146-b59e-4f22-b97a-b1019576abc6" />
+
+2. **GET /api/users/\<email\>/** - Retrieve single user by email
+<img width="1486" height="798" alt="Screenshot 2025-11-19 at 4 45 15 PM" src="https://github.com/user-attachments/assets/50891451-b1e7-41d8-987a-0d12e3862442" />
+
+3. **PUT /api/users/\<email\>/update/** - Update user details
+<img width="1486" height="798" alt="Screenshot 2025-11-19 at 4 54 38 PM" src="https://github.com/user-attachments/assets/2fd2116a-bb1b-4989-a5a3-b6f3868768fa" />
+
+4. **DELETE /api/users/\<email\>/delete/** - Delete user by email
+<img width="1486" height="798" alt="Screenshot 2025-11-20 at 6 46 26 AM" src="https://github.com/user-attachments/assets/716f766b-6747-4aec-95a6-42f68a23a17d" />
